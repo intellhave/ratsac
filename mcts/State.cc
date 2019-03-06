@@ -40,7 +40,7 @@ namespace MCTS{
       nPoints = N;
     }
     else{
-      state_th = 0.001;
+      state_th = th;
       abs = false;
       nc = 4;
       nPoints = N/4;
