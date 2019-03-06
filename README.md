@@ -30,15 +30,15 @@ Compiling
 (The instruction is for Ubuntu; Compilation steps for Windows and MacOS should be changed accordingly).
 Please install CMake then execute the following commands from the current directory:
 
+~~~
+mkdir build
 
-`mkdir build`
+cd build
 
-`cd build`
+cmake ..
 
-`cmake ..`
-
-`make`
-
+make
+~~~
 Running 
 ---
 After the code has been successfully compiled, cd to the `demo_script` folder and execute: `./runhomo.sh` to run a demo of homography estimation.
